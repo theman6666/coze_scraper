@@ -1,8 +1,3 @@
-当然可以 👍 我帮你写一个专业、清晰的 `README.md`，适合上传到 GitHub，让别人一看就明白项目功能、原理和使用方法。下面是建议的内容👇
-
-------
-
-~~~markdown
 # 🕷️ Coze QA 抓取脚本
 
 一个基于 **Selenium** 的自动化脚本，用于从 **Coze 知识库页面** 自动登录并批量抓取问答数据，最终导出为 CSV 和 Excel 文件。
@@ -25,24 +20,20 @@
 
 请先确保你的环境中安装了以下组件：
 
-| 依赖项 | 版本建议 | 说明 |
-|:--------|:----------|:------|
-| Python | ≥ 3.8 | 开发语言 |
-| Chrome 浏览器 | 最新版 | 建议与 chromedriver 匹配 |
-| chromedriver | 与 Chrome 版本对应 | [下载地址](https://chromedriver.chromium.org/downloads) |
-| Selenium | ≥ 4.0 | 浏览器自动化 |
-| pandas | ≥ 1.3 | 数据导出 |
-| python-dotenv | ≥ 0.21 | 加载 `.env` 环境变量 |
+| 依赖项        | 版本建议           | 说明                                                    |
+| :------------ | :----------------- | :------------------------------------------------------ |
+| Python        | ≥ 3.8              | 开发语言                                                |
+| Chrome 浏览器 | 138.0.7204.50      | 必须与 chromedriver 匹配                                |
+| chromedriver  | 与 Chrome 版本对应 | [下载地址](https://chromedriver.chromium.org/downloads) |
+| Selenium      | ≥ 4.0              | 浏览器自动化                                            |
+| pandas        | ≥ 1.3              | 数据导出                                                |
+| python-dotenv | ≥ 0.21             | 加载 `.env` 环境变量                                    |
 
 安装命令：
 
 ```bash
 pip install selenium pandas python-dotenv
-~~~
-
-------
-
-## 📂 项目结构
+```
 
 ```
 coze_scraper/
@@ -124,14 +115,6 @@ PASSWORD=your_password_here
 
 ------
 
-## 🧑‍💻 作者信息
-
-**作者：** 小曾
- **语言：** Python 3
- **项目目标：** 自动化抓取 Coze 知识库问答数据，方便后续做数据分析或训练集整理。
-
-------
-
 ## ⭐ 示例输出
 
 ```
@@ -142,4 +125,3 @@ PASSWORD=your_password_here
 已保存为 coze_qa.csv 和 coze_qa.xlsx
 ```
 
-## 
